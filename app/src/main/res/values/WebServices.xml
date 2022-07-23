@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="BUILD_VERSION_PATH">182.48.200.10</string>
+    <string name="FTP_USERNAME">ccrm</string>
+    <string name="FTP_PASSWORD">atmos</string>
+    <string name="BUILD_VERSION_FILE">Version.txt</string>
+    <string name="BUILD_APK_FILE">Version.txt</string>
+    <string name="BUILD_APK_FILE_NAME">CnergeeBilling</string>
+    <string name="BUILD_PACKAGE_NAME">package:com.cnergee.billing</string>
+    <string name="WSDL_TARGET_NAMESPACE">http://tempuri.org/</string>
+
+    <string name="GLOBAL_SOAP_URL">http://103.54.180.3:8005/CCRMToMobileIntegration.asmx?wsdl</string>  <!-- other client  -->
+
+    <string name="METHOD_VALIDATE_USER">ValidateUser</string>
+    <string name="METHOD_GET_MEMBER_DETAILS">GetMemberDetail</string>
+    <string name="METHOD_SEND_CASH_MEMBER_DATA">SendMemberDataCash</string>
+    <string name="METHOD_SEND_CHEQUE_MEMBER_DATA">SendMemberDataCheque</string>
+    <string name="METHOD_SEND_MOBILE_MEMBER_DATA">SendMemberDataMobilePG</string>
+    <string name="METHOD_SEND_CASH_MEMBER_DATA_RESPONSE">SendMemberDataCashResponse</string>
+    <string name="METHOD_SEND_CHEQUE_MEMBER_DATA_RESPONSE">SendMemberDataChequeResponse</string>
+    <string name="METHOD_GET_PACKAGE_LIST">GetPackageList</string>
+    <string name="METHOD_GET_PACKAGE_LIST_RESPONSE">GetPackageListResponse</string>
+    <string name="METHOD_GET_PACKAGE_ADJUSTMENT_AMOUNT">GetPackageAdjustmentAmount</string>
+    <string name="METHOD_GET_TRANSACTION_ID">GetTrasactionId</string>
+    <string name="METHOD_SEND_COLLECTION">GetCollectionFollowups</string>
+    <string name="METHOD_GET_TODAY_COLLECTION">GetTodaysCollection</string>
+    <string name="METHOD_GET_PAYMENT_REQUEST">GetPaymentRequest</string>
+    <string name="METHOD_APP_SETTING">ValidateMobileForService</string>
+    <string name="METHOD_SEND_LOCATION">GetGPSLocation</string>
+    <string name="METHOD_GET_DISCOUNT">GetPackageListDiscount</string>
+    <string name="METHOD_GET_PAYMENT_PICKUP">GetPaymentPickUpRequestAlert</string>
+    <string name="METHOD_UPDATE_PAYMENT_PICKUP">UpdatePaymentPickupAlert</string>
+    <string name="METHOD_LOGOUT_SETTING">GetGeneralSetting</string>
+    <string name="METHOD_GENERAL_SETTING">GetCollectionAppGeneralSetting</string>
+    <string name="METHOD_GET_STATUS">SendStatus</string>
+    <string name="METHOD_GET_DYNAMIC_URL">GetClientFileServerDetails</string>
+    <string name="METHOD_COMPLAINT_CATEGORY_LIST">GetComplaintCategoryList</string>
+    <string name="METHOD_SEND_COMPLAINT">LaunchComplaints</string>
+    <string name="METHOD_ADDITONAL_AMOUNT">GetAdditionAmountData</string>
+    <string name="METHOD_GET_CONNCETION_TYPE_PACKAGE_LIST">GetPackageListWithConnectionType </string>
+    <string name="METHOD_GET_ID_CARD">GetIdProofDetail</string>
+    <string name="METHOD_REACTIVATE">Reactivate</string>
+    <string name="METHOD_GET_ID_PROOF_DETAILS">GetIdProofDetail</string>
+    <string name="METHOD_USER_VISIT_INFO">UserVisitInfo</string>
+    <string name="METHOD_INSERT_BEFORE_PG">BeforeMemberCardPaymentInsertUpdate</string>
+    <string name="METHOD_SEND_MEMBER_DATEMOBILE_PG">SendMemberDataMobilePG</string>
+    <string name="METHOD_SEND_FAILED_CANCELED_TRANS">AfterMemberCardPaymentFailedUpdate</string>
+    <string name="METHOD_GET_IP_SALE_MEMBER_DETAILS">MemberIPSaleDetails</string>
+    <string name="METHOD_ASSIGN_IP_DETAILS">MemberIPSaleRenewal</string>
+    <string name="METHOD_SEND_PG_SMS">SendPaymentGatewaySMS</string>
+    <string name="METHOD_GET_POSTPAID_DATA">GetPostpaidData</string>
+    <string name="METHOD_SAVE_POSTPAID_DATA">SavePostpaidData</string>
+   
+    <!-- public string GetGPSLocation(string UserLoginName, string Longitude, string Latitude, Authentication AuthObj) -->
+
+</resources>

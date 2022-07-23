@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/bg_cnergee" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <!--
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/TextView01"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center"
+        android:text="Cnergee Billing Solutions"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+    -->
+
+    <include
+        android:id="@+id/subscriberdetails_header"
+        layout="@layout/detailsheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/subscriberdetails_header"
+        android:orientation="vertical" >
+
+        <!--
+        <EditText
+            android:id="@+id/searchTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="@string/app_search_hint_1" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+        -->
+
+        <AutoCompleteTextView
+            android:id="@+id/searchTxt"
+            style="@style/EditTextAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="@string/app_search_hint_1" >
+
+            <requestFocus android:layout_width="match_parent" />
+        </AutoCompleteTextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/logoutBtn"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_end_btn_1" />
+
+            <Button
+                android:id="@+id/reset"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_btn_2" />
+
+            <Button
+                android:id="@+id/search"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_search_btn_1" />
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <Button
+                android:id="@+id/btn_ip_renewal"
+                style="@style/AppBtn"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="5.40"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_ip_renewal" />
+        </LinearLayout>
+
+       
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <Button
+                android:id="@+id/btn_postpaid"
+                style="@style/AppBtn"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="5.40"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_postpaid" />
+        </LinearLayout>
+         
+         
+         
+         
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <Button
+                android:id="@+id/collectBtn"
+                style="@style/AppBtn"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="5.40"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_today_coll_btn_1" />
+        </LinearLayout>
+        
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/btnShowId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/relative_selector"
+                android:gravity="center"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="92dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="2.40"
+                    android:padding="3dp"
+                    android:src="@drawable/identity_card" />
+
+                <TextView
+                    android:id="@+id/textshowbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="ID Card"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

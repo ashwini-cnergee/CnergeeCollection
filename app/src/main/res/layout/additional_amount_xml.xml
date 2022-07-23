@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayoutadditional"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowPackage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextViewISP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="PackageRate:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/tvPackrate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowAddtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvAddAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Additional Amt:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/AddAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvDiscAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Discount Amt:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/DiscAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRowPoolRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvPoolRate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Pool Rate:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/PoolRate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableFine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvFineAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Fine Amt:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/FineAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/tableDaysFineAmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvDaysFineAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Days Fine Amt:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/DaysFineAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+        </TableRow>
+         
+        <TableRow
+            android:id="@+id/tableTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvTotalPayAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Total Payable Amount:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/TotalPayAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+        </TableRow>
+        
+        
+    </TableLayout>
+
+    
+</LinearLayout>

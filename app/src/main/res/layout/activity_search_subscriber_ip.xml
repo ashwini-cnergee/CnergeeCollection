@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/bg_cnergee" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+  
+
+     <RelativeLayout
+        android:id="@+id/subscriberdetails_header"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/gradient_drawable"
+        android:orientation="horizontal" >
+
+  
+    
+    
+    <TextView
+        android:id="@+id/headerView"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+
+        android:gravity="center"
+        android:text="@string/app_search_title"
+        android:textColor="@color/label_black_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/subscriberdetails_header"
+        android:orientation="vertical" >
+
+        <!--
+        <EditText
+            android:id="@+id/searchTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="@string/app_search_hint_1" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+        -->
+
+        <AutoCompleteTextView
+            android:id="@+id/et_search"
+            style="@style/EditTextAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="@string/app_search_hint_1" >
+
+            <requestFocus android:layout_width="match_parent" />
+        </AutoCompleteTextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_back"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="Back" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_btn_2" />
+
+            <Button
+                android:id="@+id/btn_search"
+                style="@style/AppBtn"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/relative_selector"
+                android:text="@string/app_search_btn_1" />
+        </LinearLayout>
+        
+         
+     
+    </LinearLayout>
+
+</RelativeLayout>

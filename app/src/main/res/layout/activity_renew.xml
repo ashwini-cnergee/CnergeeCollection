@@ -1,0 +1,193 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Renewwidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout 
+    android:id="@+id/Renewwidget1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/payDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="@string/app_default_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_black_color" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_drawable"
+        android:gravity="center"
+        android:text="@string/app_payment_mode_title"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/app_payment_mode_label_1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_gray_color" />
+
+    <RadioGroup
+        android:id="@+id/rg_time_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/view1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="19dp"
+            android:text="Advance Type:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <RadioButton
+            android:id="@+id/rb_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Type" />
+
+        <RadioButton
+            android:id="@+id/rb_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Type" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/payDate"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/radioPayMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView02"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radioCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_payment_mode_label_3" />
+
+        <RadioButton
+            android:id="@+id/radioCheque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_payment_mode_label_4" />
+
+        <RadioButton
+            android:id="@+id/radioEDC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_payment_mode_label_5" />
+
+        <RadioButton
+            android:id="@+id/rb_sms_pg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_payment_mode_label_6" />
+
+
+        <RadioButton
+            android:id="@+id/rb_dd_pg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DD" />
+
+        <RadioButton
+            android:id="@+id/rb_upi_pg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPI" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/rg_time_volume"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_payment_mode_label_2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_gray_color" />
+
+    <TextView
+        android:id="@+id/tv_Label_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/radioPayMode"
+        android:layout_marginTop="16dp"
+        android:text="Outstanding Additional Amount"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_gray_color" />
+
+    <TextView
+        android:id="@+id/tv_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/tv_Label_Out_Add_amt"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_Out_Add_amt"
+        android:background="@drawable/relative_selector"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Back" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/gradient_drawable"
+                android:gravity="center"
+                android:text="@string/app_change_ip"
+                android:textColor="@color/label_black_color"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+                android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/radioPayMode"
+                    android:layout_alignRight="@+id/payDate"
+                    android:layout_below="@+id/view1"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/ip_packges"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_black_color" />
+
+                <Spinner
+                    android:id="@+id/sp_ip_packages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+                android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/radioPayMode"
+                    android:layout_alignRight="@+id/payDate"
+                    android:layout_below="@+id/view1"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/ip_pool"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_black_color" />
+
+                <Spinner
+                    android:id="@+id/sp_pool_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+                android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/radioPayMode"
+                    android:layout_alignRight="@+id/payDate"
+                    android:layout_below="@+id/view1"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/ip_address"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_black_color" />
+
+                <TextView
+                    android:id="@+id/tv_selected_ip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+                android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/radioPayMode"
+                    android:layout_alignRight="@+id/payDate"
+                    android:layout_below="@+id/view1"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/app_payment_mode_label_2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_black_color" />
+
+                <RadioGroup
+                    android:id="@+id/radioPayMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/TextView01"
+                    android:layout_below="@+id/TextView02"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_payment_mode_label_3" />
+
+                    <RadioButton
+                        android:id="@+id/rb_cheque"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_payment_mode_label_4" />
+
+                    <RadioButton
+                        android:id="@+id/rb_edc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_payment_mode_label_5" />
+                </RadioGroup>
+            </LinearLayout>
+            
+             <RelativeLayout
+                android:id="@+id/rl_show_ip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/relative_selector"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+              	android:layout_marginLeft="5dp"
+              	android:layout_marginRight="5dp"
+              	android:visibility="gone"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ll_main_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Show Ip List"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_back"
+                    style="@style/AppBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ll_main_content"
+                    android:background="@drawable/relative_selector"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Back" />
+            </RelativeLayout>
+
+           
+        </LinearLayout>
+    </ScrollView>
+
+    <com.broadbandcollection.widgets.SlidingPanel
+        android:id="@+id/slide_panel_ip"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color"
+              
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp" >
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:src="@drawable/close_icon" />
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/gv_ip_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2" >
+            </GridView>
+        </LinearLayout>
+    </com.broadbandcollection.widgets.SlidingPanel>
+
+</RelativeLayout>

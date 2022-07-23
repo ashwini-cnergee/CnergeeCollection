@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/drawable/ic_launcher_background.xml" value="0.207" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/aactivity_app_one.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_app_settingctivity.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_cash.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_cash_ip.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_change_ip.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_change_package_new.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_change_packge.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_cheque.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_cheque_ip.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_complaint.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_id_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_ip_renewal.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_logout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_main.xml" value="0.1109375" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_packgedetail.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_payment_details.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_payment_pickup.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_post_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_postpaid.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_postpaid_dd.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_postpaid_edc.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_renew.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_search_subscriber_ip.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_search_vendor.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_show_details.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_show_direction.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_subscriber_details_ip.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/activity_update_status.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/additional_amount_xml.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/calendar.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/card_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/cheque_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/complaint_det_btn_view.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/custom_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/date_inform_customer.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/date_time_dialog.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/datepicker.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/datetime.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/datetimepicker.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/dd_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/detailsheader.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/dialog_inform_cst.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/edc_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/footer.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/google_places_search_items.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/grid_days.xml" value="0.16666666666666666" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/header.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/horizontal_item_view.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/login.xml" value="0.134375" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/login_view1.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/payment_pickup.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/payment_pickup_row.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/paymt_pick_item.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/postpaid_details.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/row_ip_address.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/row_ip_packages.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/searchrow.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/simplerow.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/subscriber_detail_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/subscriber_detail_layout01.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/timepicker.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/update_package_layout.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/update_status.xml" value="0.25" />
+        <entry key="..\:/Live Projects/CMAYA/LIVE CLIENT/CnergeeCollection/app/src/main/res/layout/view1.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

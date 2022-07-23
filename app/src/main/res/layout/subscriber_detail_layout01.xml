@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout  
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TableLayout
+       
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextViewISP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/ISPName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextViewArea"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/AreaName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+           
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/packageName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/Rate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+ </TableLayout>
+        <LinearLayout
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+<!-- 
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Addtional Amount Details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/AdditionalRate"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" /> -->
+               
+                <include                   
+   			 	android:layout_width="fill_parent"
+   				android:layout_height="wrap_content"
+    			layout="@layout/additional_amount_xml" />
+                
+        </LinearLayout>
+<TableLayout
+        
+        android:id="@+id/tableLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="1" >
+                
+    
+    <TableRow
+            android:id="@+id/tableRow14"
+          
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_outstanding_bal_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="Outstanding Bal Amt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/tv_outstanding_bal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+        
+    <TableRow
+            android:id="@+id/tableRow12"
+          
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_outstanding_add_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="Outstanding Add Amt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <EditText
+                android:id="@+id/et_outstanding_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"   
+                android:inputType="numberDecimal"            
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+          
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+           
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/Expiry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1.2"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+           
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/app_sub_details_label_5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/Mobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_sub_details_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow13"
+          
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.8"
+                android:text="@string/app_sub_details_label_13"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/addText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Click to View Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_blue_color"
+                android:textSize="15sp" />
+
+            <!--
+                 <TextView
+                     android:id="@+id/address"
+                     android:layout_width="wrap_content"
+                     android:layout_height="fill_parent"
+                     android:gravity="left"
+                     android:lines="4"
+                     android:maxLines="4"
+                     android:paddingLeft="10dp"
+                     android:text="@string/app_sub_details_label_7"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/label_black_color"
+                     android:textSize="8sp" />
+            -->
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tvLabelMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/app_sub_details_label_14"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color"
+                android:textSize="15sp" />
+
+            <!--
+                 <TextView
+                     android:id="@+id/address"
+                     android:layout_width="wrap_content"
+                     android:layout_height="fill_parent"
+                     android:gravity="left"
+                     android:lines="4"
+                     android:maxLines="4"
+                     android:paddingLeft="10dp"
+                     android:text="@string/app_sub_details_label_7"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="@color/label_black_color"
+                     android:textSize="8sp" />
+            -->
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/app_sub_details_label_6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/empty09"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" />
+
+            <EditText
+                android:id="@+id/altMobile"
+                style="@style/EditTextAppTheme"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxWidth="10dp"
+                android:paddingLeft="10dp"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/changepackage"
+                    style="@style/AppBtn"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/relative_selector"
+                    android:text="@string/app_sub_details_btn_2" />
+
+                <Button
+                    android:id="@+id/renew"
+                    style="@style/AppBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/changepackage"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/changepackage"
+                    android:background="@drawable/relative_selector"
+                    android:text="@string/app_sub_details_btn_3" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/updatestatus"
+                    style="@style/AppBtn"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/relative_selector"
+                    android:text="@string/app_sub_details_btn_4" />
+
+                <Button
+                    android:id="@+id/backBtn"
+                    style="@style/AppBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/updatestatus"
+                    android:background="@drawable/relative_selector"
+                    android:text="@string/app_back_btn" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                
+                   <Button
+                    android:id="@+id/btn_inform_customer"
+                    style="@style/AppBtn"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/relative_selector"
+                    android:visibility="gone"
+                    android:text="Inform Customer" />
+
+                <Button
+                    android:id="@+id/btnLaunchComplaint"
+                    style="@style/AppBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    
+                    android:layout_toRightOf="@+id/btn_inform_customer"
+                    android:background="@drawable/relative_selector"
+                    android:text="@string/app_sub_details_btn_5" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

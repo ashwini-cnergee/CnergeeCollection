@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_cnergee"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_drawable"
+        android:gravity="center"
+        android:text="@string/app_end_title"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView04"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Your payment details are captured:" />
+
+    <TextView
+        android:id="@+id/RefText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Your payment details are captured:"
+        android:textColor="#0000FF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/RefText"
+        android:layout_marginTop="44dp" >
+
+        <Button
+            android:id="@+id/logout"
+            style="@style/AppBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/relative_selector"
+            android:layout_gravity="right"
+            android:layout_marginTop="86dp"
+            android:text="@string/app_end_btn_1" />
+
+        <Button
+            android:id="@+id/search"
+            style="@style/AppBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/relative_selector"
+            android:layout_gravity="right"
+            android:layout_weight="0.48"
+            android:text="@string/app_end_btn_2" />
+    </LinearLayout>
+
+</RelativeLayout>

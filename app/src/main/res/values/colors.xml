@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <!--<color name="colorAccent">#502FC6</color>-->
+    <color name="colorAccent">#2a6cc3</color>
+     <color name="btn_pressed">#7CFC00</color>
+     <color name="btn_released">#C0C0C0</color>
+     <color name="label_gray_color">#A9A9A9</color>
+     <color name="label_black_color">#000000</color>
+     <color name="label_blue_color">#0000FF</color>
+     <color name="label_red_color">#FF0000</color>
+     <color name="label_orange_color">#FFA500</color>
+     <color name="label_LightSeaGreen_color">#20B2AA</color>
+   <color name="GrayLight">#eeeeee</color>
+     <color name="white_color">#ffffff</color>
+   <color name="blue_color">#72d3f8</color>
+
+    <color name="label_white_color">#FFFFFF</color>
+    <color name="pkg1">#d3d691</color>
+    <color name="pkg2">#9fcea5</color>
+    <color name="pkg3">#DAB5DA</color>
+    <color name="pkg4">#F2B1CA</color>
+    <color name="pkg5">#F18C92</color>
+
+    <color name="pkg6">#8991ea</color>
+    <color name="help_calc">#337df4</color>
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="accent">#607D8B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="setup_store_bg">#787878</color>
+
+
+
+</resources>

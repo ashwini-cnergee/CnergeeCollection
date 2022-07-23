@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Detailswidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/sd_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <include
+        android:id="@+id/subscriberdetails_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/customerName"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/subscriberdetails_header"
+        android:gravity="center"
+        android:text="@string/app_sub_details_label_9"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_blue_color" />
+
+    <include
+         android:id="@+id/view1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/sd_footer"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/customerName"
+         layout="@layout/subscriber_detail_layout01"
+         android:paddingTop="10dp" /> 
+
+     <!--     <include
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/sd_footer"
+         android:layout_below="@+id/customerName"
+         layout="@layout/subscriber_detail_layout" /> -->
+
+</RelativeLayout>

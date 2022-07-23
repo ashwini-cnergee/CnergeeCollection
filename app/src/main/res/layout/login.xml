@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_cnergee"
+    android:gravity="top"
+    android:orientation="vertical" >
+<!-- 
+    <Button
+        android:id="@+id/setting"
+        style="@style/AppBtn"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loginBtn"
+        android:layout_toLeftOf="@+id/loginBtn"
+        android:background="@drawable/relative_selector"
+        android:text="@string/login_btn_setting" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:text="@string/login_pass"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_name"
+     	android:layout_alignLeft="@+id/user_name"
+        
+        android:text="@string/login_user"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+       	android:text=""
+       	style="@style/EditTextAppTheme"
+        android:layout_centerInParent="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_alignRight="@+id/loginBtn"
+        android:layout_centerVertical="true"
+        android:text=""
+        style="@style/EditTextAppTheme"
+        android:ems="10"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/AppBtn"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/user_name"
+        android:layout_below="@+id/password"
+        android:background="@drawable/relative_selector"
+        android:text="@string/login_btn_login" /> -->
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_drawable"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+      <include
+        android:id="@+id/login_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/TextView04"
+        android:layout_above="@+id/login_footer"
+        android:layout_alignParentLeft="true"
+        layout="@layout/login_view1" />
+    
+
+    <include
+        android:id="@+id/login_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_footer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting"
+        android:layout_marginTop="48dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/phoneInfo"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/versionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_footer"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:text="@string/app_sub_details_label_7"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/label_blue_color"
+        android:textStyle="bold" />
+
+</RelativeLayout>

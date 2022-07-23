@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/subscriberdetails_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/TextViewSubScriberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/subscriberdetails_header"
+        android:paddingLeft="10dp"
+        android:text="@string/app_sub_details_label_12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_gray_color"
+        android:textSize="15sp" />
+
+    <include
+        android:id="@+id/sd_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <TextView
+        android:id="@+id/subscriberid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextViewSubScriberId"
+        android:layout_alignBottom="@+id/TextViewSubScriberId"
+        android:layout_toRightOf="@+id/TextViewSubScriberId"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="@string/app_sub_details_label_7"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_blue_color"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextViewSubScriberId"
+        layout="@layout/update_status" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        style="@style/AppBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/backBtn"
+        android:layout_alignBottom="@+id/backBtn"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/relative_selector"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/relative_selector"
+        android:layout_above="@+id/sd_footer"
+        android:layout_marginBottom="14dp"
+        android:layout_toLeftOf="@+id/updateBtn"
+        android:text="@string/app_back_btn" />
+
+</RelativeLayout>

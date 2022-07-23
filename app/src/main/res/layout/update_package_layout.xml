@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Selected Package"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color"/>
+
+        <!--<Spinner-->
+
+        <!--android:text="@string/app_rnew_label_1"-->
+        <!--android:id="@+id/planList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.11"-->
+            <!--android:paddingLeft="10dp" />-->
+
+        <TextView
+            android:id="@+id/tv_package_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="left"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color"/>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_rnew_label_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0000FF" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/additional_amount_xml" />
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayoutadditional"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowPackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/tvLabel_outstanding"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Outstanding Add Amount:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/label_black_color" />
+
+                <TextView
+                    android:id="@+id/tv_Outstanding_Add_Amount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/app_sub_details_label_7"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.20"
+            android:paddingLeft="10dp"
+            android:text="@string/app_rnew_label_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <RadioGroup
+            android:id="@+id/radioPayMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rnew_label_4" />
+
+            <RadioButton
+                android:id="@+id/radioNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rnew_label_5" />
+
+            <RadioButton
+                android:id="@+id/radioAdj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_rnew_label_6" />
+        </RadioGroup>
+        
+         <RadioGroup
+        android:id="@+id/rg_time_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/view1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="19dp"
+            android:text="Select Advance Type:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rb_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Type" />
+
+        <RadioButton
+            android:id="@+id/rb_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Type" />
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.20"
+            android:paddingLeft="10dp"
+            android:text="@string/app_payment_mode_label_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_below="@+id/TextView04"
+            android:orientation="vertical"
+            android:paddingBottom="10dp" >
+
+            
+
+                <RadioButton
+                    android:id="@+id/radioCash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_payment_mode_label_3" />
+
+                <RadioButton
+                    android:id="@+id/radioCheque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_payment_mode_label_4" />
+           
+
+            <RadioButton
+                android:id="@+id/radioEDC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_payment_mode_label_5" />
+
+            <RadioButton
+                android:id="@+id/rb_sms_pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_payment_mode_label_6" />
+
+            <RadioButton
+                android:id="@+id/rb_dd_pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DD" />
+
+            <RadioButton
+                android:id="@+id/rb_upi_pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPI" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/backBtn"
+            style="@style/AppBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/relative_selector"
+            android:text="@string/app_back_btn" />
+    </LinearLayout>
+
+</ScrollView>

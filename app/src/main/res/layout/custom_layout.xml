@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_border"
+    android:orientation="vertical" >
+
+        <LinearLayout
+                android:id="@+id/ll_postpaid2_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+               
+               <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_payment_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="@string/title_payment_date" />
+                    <TextView
+                        android:id="@+id/tv_disp_payment_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:text=""
+						android:textSize="15dp"/>
+            </LinearLayout> 
+            
+               
+            <LinearLayout
+                    android:id="@+id/ll_unpaid_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_unpaid_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_unpaid_amount" />
+                    <TextView
+                        android:id="@+id/tv_disp_unpaidAmount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>   
+               
+             <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_invoice_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_invoice_amount" />
+                    <TextView
+                        android:id="@+id/tv_disp_invoice_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>   
+             
+            <LinearLayout
+                    android:id="@+id/ll_fine_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_fine_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_fine_amount" />
+                    <TextView
+                        android:id="@+id/tv_disp_fine_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>
+             
+            
+            <LinearLayout
+                    android:id="@+id/ll_paid_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_paid_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_paid_amount" />
+                    <TextView
+                        android:id="@+id/tv_disp_paid_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>
+               
+            
+             <LinearLayout
+                    android:id="@+id/ll_adjust_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_adjust_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_adjustment_amount" />
+                    <TextView
+                        android:id="@+id/tv_disp_adjust_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>
+            
+            
+             <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_due_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_due_date" />
+                    <TextView
+                        android:id="@+id/tv_disp_due_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout> 
+             
+              <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/tv_penalty"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/title_current_paynality" />
+                    <TextView
+                        android:id="@+id/tv_disp_penalty"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+						android:textSize="15dp"/>
+             </LinearLayout>   
+       </LinearLayout>
+
+</LinearLayout>

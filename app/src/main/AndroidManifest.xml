@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.broadbandcollection">
+
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_COARSE_LOCATION"-->
+<!--        android:maxSdkVersion="22" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_COARSE_LOCATION"-->
+<!--        android:maxSdkVersion="22" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_COARSE_LOCATION"-->
+<!--        android:maxSdkVersion="22" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_FINE_LOCATION"-->
+<!--        android:maxSdkVersion="22" />-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.broadbandcollection.billing.activity.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name="com.broadbandcollection.billing.activity.SplashscreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.broadbandcollection.billing.activity.Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.ShowDetailsActivity"
+            android:label="@string/title_activity_show_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.RenewActivity"
+            android:label="@string/title_activity_renew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.CashActivity"
+            android:label="@string/title_activity_cash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.Cash_postpaidActivity"
+            android:label="@string/title_activity_cash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.ChequeActivity"
+            android:label="@string/title_activity_cheue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.Cheque_postpaidActivity"
+            android:label="@string/title_activity_cheue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.DD_postpaidActivity"
+            android:label="@string/title_activity_cheue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.Edc_postpaidActivity"
+            android:label="@string/title_activity_cheue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.PaymentDetailsActivity"
+            android:label="@string/title_activity_payment_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.ChangePackgeActivity"
+            android:label="@string/title_activity_change_packge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.AppSettingctivity"
+            android:label="@string/title_activity_app_settingctivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.SearchVendorActivity"
+            android:label="@string/title_activity_search_vendor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.CardActivity"
+            android:label="@string/title_activity_card" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.Postpaid_Activity"
+            android:label="@string/title_activity_postpaid" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.LogoutActivity"
+            android:label="@string/title_activity_logout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.UpdateStatusActivity"
+            android:label="@string/title_activity_updatestatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.PaymentPickupActivity"
+            android:label="@string/title_activity_payment_pickup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.ComplaintActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.IdCardActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.SearchSubscriber_Ip_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.SubscriberDetails_Ip_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.Renew_IP_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.IP_Cash_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.IP_Cheque_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.IP_PaymentDetails_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.iprenewal.Change_Ip_Activity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.broadbandcollection.billing.activity.PackgedetailActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.broadbandcollection.billing.activity.ChangePackage_NewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <service android:name="com.broadbandcollection.billing.services.LocationMonitoringService" />
+
+        <service android:name="com.broadbandcollection.billing.services.LocationSendService" />
+
+        <receiver android:name="com.broadbandcollection.billing.broadcast.GpsStatusListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.broadbandcollection.billing.broadcast.AlarmBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.broadbandcollection.billing.broadcast.AlarmBroadcastForLocation"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.broadbandcollection.billing.services.GpsTrackerService" />
+        <service android:name="com.broadbandcollection.billing.services.ShowAlertService" />
+        <service android:name="com.broadbandcollection.billing.services.PaymentPickupRequestService" />
+
+        <receiver
+            android:name="com.broadbandcollection.billing.broadcast.BootBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.broadbandcollection.billing.broadcast.AlarmBroadcastForPayment"
+            android:enabled="true" />
+
+
+    </application>
+
+</manifest>

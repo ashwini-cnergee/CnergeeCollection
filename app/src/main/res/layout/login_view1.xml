@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent" >
+   <!-- android:background="@drawable/roundededges" --> 
+    <TextView
+        android:id="@+id/tvUserName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:text="@string/login_user" />
+    
+    <EditText
+         android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+       style="@style/EditTextAppTheme"
+      
+        />
+    
+     <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+         android:textSize="18sp"
+         android:layout_margin="5dp"
+        android:text="@string/login_pass" />
+    
+    <EditText
+         android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+       style="@style/EditTextAppTheme"
+      
+       />
+    
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp"
+   
+    android:orientation="horizontal" >
+    
+        <Button
+            android:id="@+id/setting"
+            style="@style/AppBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/relative_selector"
+            android:text="@string/login_btn_setting" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@style/AppBtn"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/relative_selector"
+            android:text="@string/login_btn_login" />
+      
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/TextViewISP"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:text="@string/app_sub_details_label_11"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ISPName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+         <TextView
+             android:id="@+id/TextViewArea"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:text="@string/app_sub_details_label_10"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/AreaName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/packageName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_sub_details_label_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Rate"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_sub_details_label_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_sub_details_label_4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Expiry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_sub_details_label_5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_sub_details_label_7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_sub_details_label_6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <EditText
+            android:id="@+id/altMobile"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="10"
+            android:minEms="10"
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/backBtn"
+                style="@style/AppBtn"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_corners"
+                android:layout_gravity="center"
+                android:text="@string/app_back_btn" />
+
+            <Button
+                android:id="@+id/changepackage"
+                style="@style/AppBtn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/backBtn"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_corners"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/backBtn"
+                android:text="@string/app_sub_details_btn_2" />
+
+            <Button
+                android:id="@+id/renew"
+                style="@style/AppBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners"
+                android:layout_alignBaseline="@+id/backBtn"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/changepackage"
+                android:text="@string/app_sub_details_btn_3" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

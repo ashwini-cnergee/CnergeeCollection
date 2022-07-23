@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<network-security-config >
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>-->
+
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">150.129.48.28</domain>
+        <domain includeSubdomains="true">103.54.180.3</domain>
+        <domain includeSubdomains="true">103.54.183.98</domain>
+        <domain includeSubdomains="true">115.69.240.30</domain>
+    </domain-config>
+</network-security-config>

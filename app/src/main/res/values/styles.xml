@@ -1,0 +1,73 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<!--<style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+
+	<style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+
+		<item name="colorPrimary">@color/label_orange_color</item>
+		<item name="colorPrimaryDark">@color/label_orange_color</item>
+		<item name="colorAccent">@android:color/black</item>
+		<item name="android:textViewStyle">@style/MyTextViewStyle</item>
+		<item name="android:editTextStyle">@style/MyEditTextStyle</item>
+		<item name="android:radioButtonStyle">@style/MyRBStyle</item>
+		<item name="colorControlNormal">@android:color/black</item>
+	</style>-->
+     
+     <style name="AppBtn" parent="@android:style/Widget.Button">
+		<item name="android:height">@dimen/AppBtnHeight</item>
+		<item name="android:width">@dimen/AppBtnWidth</item>
+		<item name="android:layout_marginTop">@dimen/AppBtnMarginTop</item>
+		<item name="android:background">@drawable/app_botton</item>
+		<item name="android:layout_marginLeft">@dimen/AppBtnMarginLeft</item>
+		<item name="android:layout_marginRight">@dimen/AppBtnMarginRight</item>
+		    
+	</style>
+	<dimen name="AppBtnHeight">40dp</dimen>
+	<dimen name="AppBtnWidth">102dp</dimen>
+	<dimen name="AppBtnMarginTop">12dp</dimen>
+	<dimen name="AppBtnMarginLeft">5dp</dimen>
+	<dimen name="AppBtnMarginRight">5dp</dimen>
+	
+	
+	<style name="EditTextAppTheme" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/apptheme_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+	<style name="Dialogtheme" parent="Theme.AppCompat.Light.Dialog">
+		<item name="windowNoTitle">true</item>
+	</style>
+	<style name="MyTextViewStyle" parent="android:Widget.TextView">
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="MyEditTextStyle" parent="android:Widget.EditText">
+		<item name="android:textColor">@android:color/black</item>
+		<item name="android:textColorHint">@android:color/black</item>
+	</style>
+
+	<style name="MyRBStyle" parent="android:Widget.CompoundButton.RadioButton">
+		<item name="android:textColor">@android:color/black</item>
+		<item name="android:buttonTint">@android:color/black</item>
+	</style>
+
+
+</resources>

@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:orientation="vertical" >
+
+     <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_drawable"
+        android:gravity="center"
+        android:text="@string/app_cash_title"
+        android:textColor="@color/label_black_color"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView04"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_cash_label_1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/payDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_due_amount"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dueAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_blue_color" 
+            android:visibility="gone"/>
+        
+        <!--  <EditText
+            android:id="@+id/et_payDate"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/EditTextAppTheme"
+            android:hint="@string/app_cheque_hint_2"
+            android:inputType="number"
+            android:maxLength="8" /> -->
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_cash_label_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/payAmount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_blue_color" />
+        
+         <TextView
+        android:id="@+id/tv_Label_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/radioPayMode"
+        android:paddingLeft="10dp"
+         android:text="Outstanding Additional Amount"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_gray_color" />
+     
+      <TextView
+        android:id="@+id/tv_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/tv_Label_Out_Add_amt"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.broadbandcollection.widgets.MyTextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/app_cheque_label_8"
+            android:textColor="@color/label_gray_color"
+            android:textSize="16dp" />
+
+        <com.broadbandcollection.widgets.MyEditTextView
+            android:id="@+id/rtNo"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/label_black_color"
+            android:layout_marginTop="5dp"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Reference No"
+            android:maxLength="10"/>
+
+        <com.broadbandcollection.widgets.MyTextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/label_gray_color"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_cheque_label_9"
+            android:layout_marginTop="10dp"
+            android:gravity="top" />
+
+
+        <com.broadbandcollection.widgets.MyEditTextView
+            android:id="@+id/comments"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/label_black_color"
+            android:layout_marginTop="5dp"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Comment" />
+
+
+        <TextView
+            android:id="@+id/LabelRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/app_cash_label_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_gray_color"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/receptNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:ems="10"
+            android:hint="@string/app_cash_hint_1"
+            android:paddingLeft="10dp"
+            android:visibility="gone" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/app_cash_btn_1" />
+
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/submit"
+        android:background="@drawable/rounded_corners"
+        android:layout_alignBottom="@+id/submit"
+        android:layout_toLeftOf="@+id/submit"
+        android:text="@string/app_back_btn" />
+
+</RelativeLayout>

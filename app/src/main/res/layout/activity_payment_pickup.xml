@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".billing.activity.PaymentPickupActivity"
+    android:background="@color/label_white_color">
+
+    <include
+        android:id="@+id/paymentpick_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <include
+        android:id="@+id/sd_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/payment_pickup" 
+        android:layout_above="@+id/backBtn"
+    	android:layout_below="@+id/paymentpick_header"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sd_footer"
+        android:background="@drawable/relative_selector"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="@string/app_back_btn" />
+
+</RelativeLayout>

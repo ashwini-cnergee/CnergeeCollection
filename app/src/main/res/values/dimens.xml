@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="sub_details_ll_padding_left_right">3dp</dimen>
+    <dimen name="sub_details_ll_padding_top_bottom">5dp</dimen>
+    
+   <integer name="ll_parent_weightsum">5</integer>
+    <integer name="tv_left_weight">2</integer>
+    <integer name="tv_right_weight">3</integer>
+    
+    <dimen name="ip_renew_ll_padding_left_right">4dp</dimen>
+    <dimen name="ip_renew_ll_padding_top_bottom">6dp</dimen>
+
+
+    <dimen name="home_tv_padding_top">4dp</dimen>
+    <dimen name="home_tv_padding_bottom">4dp</dimen>
+    <dimen name="home_tv_padding_left">4dp</dimen>
+    <dimen name="home_tv_padding_right">4dp</dimen>
+
+</resources>

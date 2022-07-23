@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_back_btn">Back</string>
+     <string name="app_update_btn">Update</string>
+      <string name="app_default_label">-</string>
+      
+     <string name="login_title">Login</string>
+     <string name="login_user">Username:</string>
+     <string name="login_pass">Password:</string>
+     <string name="login_btn_login">Login</string>
+     <string name="login_btn_setting">WS Setting</string>
+     
+     <string name="app_setting_title">Authentication</string>
+     <string name="app_label_1">Mobile No:</string>
+     <string name="app_label_2">Mobile Login Id:</string>
+     <string name="app_label_3">Mobile Password:</string>
+     <string name="app_label_5">Ezetap Code:</string>
+     <string name="app_label_4">Access Code:</string>
+     <string name="app_btn_1">Save</string>
+     <string name="app_btn_2">Reset</string>
+     <string name="app_hint_1">WSU001</string>
+     
+     <string name="app_search_title">Search Subscriber</string>
+     <string name="app_search_postpaid_title">Search Postpaid Subscriber</string>
+     <string name="app_invoice_payment"><u>Invoice Details</u></string>
+     <string name="app_search_btn_1">Search</string>
+      <string name="app_today_coll_btn_1">Today\'s Collection</string>
+      <string name="app_ip_renewal">Ip Renewal</string>
+      <string name="app_postpaid">Postpaid</string>
+      <string name="app_change_ip">Change IP</string>
+     <string name="app_search_hint_1">Enter Subscriber Id</string>
+     
+     <string name="app_sub_details_title">Subscriber Details</string>
+     <string name="app_sub_details_label_1">Package:</string>
+     <string name="app_sub_details_label_2">Price:</string>
+     <string name="app_sub_details_label_3">Status:</string>
+
+    <string name="package_list">Package List</string>
+	 
+	 <string name="app_sub_details_label_4">Package Expiry:</string>
+     <string name="app_sub_details_label_5">Mobile:</string>
+     <string name="app_sub_details_label_6">Alternate Mobile:</string>
+	 <string name="app_sub_details_label_7">-</string>
+	 <string name="app_sub_details_label_8">00.00</string>
+	 <string name="app_sub_details_label_9">Subscriber Name</string>
+	 <string name="app_sub_details_label_10">Area Name:</string>
+	 <string name="app_sub_details_label_11">ISP Name:</string>
+	 <string name="app_sub_details_label_12">Subscriber Id:</string>
+	  <string name="app_sub_details_label_13">Address:</string>
+	   <string name="app_sub_details_label_14">Message:</string>
+	 
+	 
+     <string name="app_sub_details_btn_2">Upgrade Package</string>
+	 <string name="app_sub_details_btn_3">Renew</string>
+	 <string name="app_sub_details_btn_4">Update Status</string>
+	  <string name="app_sub_details_btn_5">Launch Complaint</string>
+	 <string name="app_payment_mode_title">Payment</string>
+     <string name="app_payment_mode_label_1">Date:</string>
+     <string name="app_payment_mode_label_2">Mode Of Payment</string>
+     <string name="app_payment_mode_label_3">Cash</string>
+	 
+	 <string name="app_payment_mode_label_4">Cheque</string>
+     <string name="app_payment_mode_label_5">Credit Card</string>
+      <string name="app_payment_mode_label_6">SMS Renewal</string>
+     
+     <string name="app_cash_title">Cash Payment</string>
+     <string name="app_cash_label_1">Date:</string>
+     <string name="app_due_amount">Due Amount:</string>
+     <string name="app_cash_label_2">Amount:</string>
+     <string name="app_cash_label_3">ReceiptNo:</string>
+     <string name="app_cash_hint_1">Enter Receipt No</string>
+     <string name="app_cash_btn_1">Submit</string>
+     <string name="app_postpaid_cash_title">Postpaid Cash Payment</string>
+     
+     
+     <string name="app_cheque_title">Cheque Payment</string>
+     <string name="app_cheque_label_1">Date:</string>
+     <string name="app_cheque_label_2">Amount:</string>
+     <string name="app_cheque_label_3">ReceiptNo:</string>
+     <string name="app_postpaid_cheque_title">Postpaid Cheque Payment</string>
+     <string name="app_postpaid_dd_title">Postpaid DD Payment</string>
+     <string name="app_postpaid_edc_title">Postpaid EDC Payment</string>
+	 
+	 <string name="app_cheque_label_4">Cheque No:</string>
+     <string name="app_cheque_label_5">Bank:</string>
+     
+     <string name="app_dd_label">DD No:</string>
+     <string name="app_edc_label">EDC No:</string>
+     
+     
+     <string name="app_cheque_btn_1">Submit</string>
+	 <string name="app_cheque_hint_1">Bank Name</string>
+	 <string name="app_cheque_hint_2">DDMMYYYY</string>
+	 
+	 <string name="app_card_title">Debit / Credit Card Payment</string>
+     <string name="app_card_label_1">ReceiptNo:</string>
+     <string name="app_card_label_2">Amount:</string>
+     <string name="app_card_label_3">Mobile No.</string>
+	 <string name="app_card_label_4">Order No.</string>
+     
+	 
+     <string name="app_card_btn_1">Next</string>
+	 <string name="app_card_hint_1">Enter Receipt No</string>
+	 
+	 <string name="app_end_title">Payment Details</string>
+	 <string name="app_end_btn_1">Logout</string>
+	 <string name="app_end_btn_2">Search Another Subscriber</string>
+	 
+	<string name="app_rnew_title">Upgrade Package</string>
+	<string name="app_rnew_label_1">Upgrade Package:</string>
+	<string name="app_rnew_label_2">Price:</string>
+	<string name="app_rnew_label_3">Update From:</string>
+	<string name="app_rnew_label_4">Next Renewal</string>
+	<string name="app_rnew_label_5">Immediate</string>
+	<string name="app_rnew_label_6">Conversion</string>
+	
+	<string name="app_pay_pick_title">Payment Pickup List</string>
+	 
+	 
+</resources>

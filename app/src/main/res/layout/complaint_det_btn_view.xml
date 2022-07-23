@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right" >
+
+ <TableRow
+     android:id="@+id/tableRow1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:paddingTop="10dp" >
+
+
+   
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:background="@drawable/relative_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_back_btn" />
+    </TableRow>
+
+</TableLayout>

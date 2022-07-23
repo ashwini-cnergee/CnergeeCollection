@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingTop="0dp" >
+
+        <!-- <TextView
+            android:id="@+id/payDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <TextView
+            android:id="@+id/LabelRec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_cheque_label_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <EditText
+            android:id="@+id/receptNo"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/EditTextAppTheme"
+            android:inputType="number"
+            android:maxLength="6" >
+
+            <requestFocus /> 
+        </EditText>-->
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_edc_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <EditText
+            android:id="@+id/edc_no"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            style="@style/EditTextAppTheme"
+            android:maxLength="7" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_cheque_label_5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        <EditText
+            android:id="@+id/edc_bank_name"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/EditTextAppTheme"
+            android:hint="@string/app_cheque_hint_1"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_cheque_label_1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edc_date"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/EditTextAppTheme"
+            android:hint="@string/app_cheque_hint_2"
+            android:inputType="number"
+            android:maxLength="8" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_cheque_label_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/edc_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0000FF" />
+        
+        <!--   <TextView
+        android:id="@+id/tv_Label_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/radioPayMode"
+       
+        android:layout_marginTop="16dp"
+         android:text="Outstanding Additional Amount"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/label_black_color" />
+     
+      <TextView
+        android:id="@+id/tv_Out_Add_amt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioPayMode"
+        android:layout_alignRight="@+id/payDate"
+        android:layout_below="@+id/tv_Label_Out_Add_amt"
+       
+        android:layout_marginTop="16dp"
+       android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         /> -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" >
+
+            <Button
+                android:id="@+id/backBtn"
+                style="@style/AppBtn"
+                android:background="@drawable/relative_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:text="@string/app_back_btn" />
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/AppBtn"
+                android:background="@drawable/relative_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/app_cheque_btn_1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

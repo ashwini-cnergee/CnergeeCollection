@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/callback"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingRight="65dp"
+            android:text="Call Back" />
+
+        <CheckBox
+            android:id="@+id/visitagain"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/callback"
+            android:text="Visit Again" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/doorlock"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingRight="18dp"
+            android:text="Door Locked" />
+
+        <CheckBox
+            android:id="@+id/shifted"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_toRightOf="@+id/doorlock"
+            android:text="Shifted" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/serviceissue"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingRight="34dp"
+            android:text="Service Issue" />
+
+        <CheckBox
+            android:id="@+id/outstation"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/serviceissue"
+            android:text="Out Station / Exams" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_blue_color" />
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="103dp"
+            android:text="Time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_blue_color" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView04"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/ip_renew_ll_padding_top_bottom"
+        android:paddingLeft="@dimen/ip_renew_ll_padding_left_right"
+        android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+        android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+            android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_payment_mode_label_1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_default_label"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+            android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioPayMode"
+                android:layout_alignRight="@+id/payDate"
+                android:layout_below="@+id/view1"
+                android:layout_marginTop="16dp"
+                android:text="@string/ip_packges"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+
+           <Spinner 
+               android:id="@+id/sp_ip_packages"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/ip_renew_ll_padding_left_right"
+            android:paddingTop="@dimen/ip_renew_ll_padding_top_bottom" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioPayMode"
+                android:layout_alignRight="@+id/payDate"
+                android:layout_below="@+id/view1"
+                android:layout_marginTop="16dp"
+                android:text="@string/app_payment_mode_label_2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+
+            <RadioGroup
+                android:id="@+id/radioPayMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView01"
+                android:layout_below="@+id/TextView02"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_payment_mode_label_3" />
+
+                <RadioButton
+                    android:id="@+id/rb_cheque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_payment_mode_label_4" />
+
+                <RadioButton
+                    android:id="@+id/rb_edc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_payment_mode_label_5" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+       
+        android:layout_below="@+id/ll_main_content"
+        android:background="@drawable/relative_selector"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_drawable"
+        android:gravity="center"
+        android:text="@string/app_ip_renewal"
+        android:textColor="@color/label_black_color"
+        android:textStyle="bold" />
+
+</RelativeLayout>

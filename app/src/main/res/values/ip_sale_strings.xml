@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="isp_name">ISP Name:</string>
+    <string name="area_name">Area Name:</string>
+    <string name="package_name">Package Name:</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="price">Price:</string>
+    <string name="status">Status:</string>
+    <string name="package_expiry">Package Expiry:</string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="address">Address:</string>
+    <string name="alternate_mobile_number">Alternate Mobile:</string>
+    <string name="click">Click here to view address</string>
+      <string name="change_ip">Change IP</string>
+       <string name="ip_packges">Select IP Packages:</string>
+       <string name="ip_pool">Select Pool:</string>
+</resources>

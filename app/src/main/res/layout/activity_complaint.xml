@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Detailswidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+     <include
+        android:id="@+id/subscriberdetails_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+    
+ <Spinner
+        android:id="@+id/spinnerList"
+     	android:layout_below="@+id/subscriberdetails_header"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"        
+        />
+    
+    <EditText
+                android:id="@+id/comments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"         
+                android:gravity="top"
+                android:layout_marginTop="15dp"
+                android:hint="Please enter your comment"
+               	style="@style/EditTextAppTheme"
+                android:inputType="textMultiLine"   
+                android:layout_below="@+id/spinnerList"          
+                android:lines="3"
+                android:textSize="16sp" />
+    <LinearLayout 
+        android:id="@+id/relativeLayout2" 
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="25dp"
+		android:layout_below="@+id/comments"
+		android:gravity="right" >
+		
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content" 
+            android:text="Cancel"
+			 style="@style/AppBtn"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/relative_selector"
+            android:textColor="#000000" />
+		<Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content" 
+            android:text="Submit"
+			  style="@style/AppBtn"
+			  android:layout_gravity="center_horizontal"
+			android:layout_height="wrap_content"
+			android:background="@drawable/relative_selector"
+            android:textColor="#000000" />
+		
+		
+
+        
+	</LinearLayout>
+	<include
+        android:id="@+id/sd_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+    
+    
+</RelativeLayout>

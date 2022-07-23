@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/switch_view_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip" >
+
+        
+             <Button android:id="@+id/SwitchToDate" android:layout_width="0dip" android:text="Set date"
+                 android:visibility="gone"
+			android:layout_weight="1" android:layout_height="wrap_content" android:enabled="false" />
+       
+
+        <Button
+            android:id="@+id/btn_set_time"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set time" />
+    </LinearLayout>
+
+    <ViewSwitcher
+        android:id="@+id/switch_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_view_linear"/>
+
+</RelativeLayout>

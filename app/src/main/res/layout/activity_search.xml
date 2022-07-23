@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchwidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@drawable/bg_cnergee"
+    android:gravity="center"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center"
+        android:text="Cnergee Billing"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/widget1"
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bar"
+        android:gravity="center"
+        android:text="Search"
+        android:textColor="#000000"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:id="@+id/searchText"
+        style="@style/EditTextAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10">
+
+        <requestFocus />
+    </EditText>
+
+
+
+
+    <ListView
+        android:id="@+id/searchListData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_below="@+id/searchText"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+
+</RelativeLayout>
