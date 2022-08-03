@@ -119,6 +119,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/app_payment_mode_label_5" />
+
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/rb_dd_pg"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="DD" />-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/rb_upi_pg"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="UPI" />-->
+
+
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>

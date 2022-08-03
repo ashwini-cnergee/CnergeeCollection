@@ -154,10 +154,10 @@ public class SearchVendorActivity extends Activity {
 		  if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.HONEYCOMB) {
 			  getPaymentRequestWebService.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 		  }
-		  else{			  
+		  else{
 			  getPaymentRequestWebService.execute((String) null);
 		  }
-		AppConstants1.APP_OPEN=true;
+//		AppConstants1.APP_OPEN=true;
 		
 	//	if(sharedPreferences.getBoolean("check_first", true)){
 			
@@ -1079,8 +1079,8 @@ public class SearchVendorActivity extends Activity {
 			getPaymentRequestWebService = null;
 			 collectBtn.setClickable(true);
 			Dialog.dismiss();
-			  Intent finishIntent = new Intent("show_pickupdata");	
-              LocalBroadcastManager.getInstance(context).sendBroadcast(finishIntent);
+//			  Intent finishIntent = new Intent("show_pickupdata");
+//              LocalBroadcastManager.getInstance(context).sendBroadcast(finishIntent);
 			is_paymentpickup_running=false;
 			Utils.log("dialog 3rd dismiss", "3rd dialog");
 			try{
@@ -1158,7 +1158,7 @@ public class SearchVendorActivity extends Activity {
 		    public void onReceive(Context context, Intent intent) {
 		       // Utils.log("Service","Message");
 		        //  ... react to local broadcast message
-		        /*if(AppConstants1.GPS_AVAILABLE){
+		        if(AppConstants1.GPS_AVAILABLE){
 		        if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
 		    	{
 		    		if(alert!=null)
@@ -1167,7 +1167,7 @@ public class SearchVendorActivity extends Activity {
 		    	else{
 		    		 //showGPSDisabledAlertToUser();
 		    		 }
-		        }*/
+		        }
 		    	finish();
 		        
 		    }

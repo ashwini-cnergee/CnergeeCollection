@@ -8,8 +8,8 @@ android {
         applicationId "com.broadbandcollection"
         minSdk 19
         targetSdk 32
-        versionCode 23
-        versionName "6.01"
+        versionCode 24
+        versionName "6.02"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -20,6 +20,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

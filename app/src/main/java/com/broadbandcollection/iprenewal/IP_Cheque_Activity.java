@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -44,7 +45,7 @@ public class IP_Cheque_Activity extends Activity {
 		setContentView(R.layout.activity_cheque_ip);
 		initialzeControls();
 		BaseApplication.getEventBus().register(this);
-		
+		Log.e("IP_Cheque_Activity",":-"+subscriberDetails_Ip);
 		btn_submit.setOnClickListener(new OnClickListener() {
 			
 			@Override
